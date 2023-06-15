@@ -1,6 +1,13 @@
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
 html, body {
   padding: 0;
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
+  letter-spacing: .1rem
 }

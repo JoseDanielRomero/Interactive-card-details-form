@@ -43,7 +43,6 @@
     flex-direction: column;
     align-items: flex-start;
     font-size: 1.6rem;
-    letter-spacing: .1rem;
     color: white;
 }
 
@@ -59,7 +58,6 @@
     display: flex;
     width: 70%;
     color: white;
-    letter-spacing: .1rem;
 }
 
 .card-front-expiration {
@@ -68,5 +66,4 @@
     align-items: flex-end;
     width: 25%;
     color: white;
-    letter-spacing: .1rem;
 }

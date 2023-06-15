@@ -1,4 +1,5 @@
 import './App.css';
+import MainContent from './components/MainContent';
 import SideContent from './components/SideContent';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div className="App">
       <SideContent>
       </SideContent>
+      <MainContent>
+      </MainContent>
     </div>
   );
 }
