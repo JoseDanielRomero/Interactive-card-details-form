@@ -5,10 +5,8 @@ import SideContent from './components/SideContent';
 function App() {
   return (
     <div className="App">
-      <SideContent>
-      </SideContent>
-      <MainContent>
-      </MainContent>
+      <SideContent />
+      <MainContent />
     </div>
   );
 }
