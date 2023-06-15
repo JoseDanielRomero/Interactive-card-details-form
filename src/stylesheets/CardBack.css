@@ -1,0 +1,9 @@
+.card-back {
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 18%;
+    height: 27%;
+    width: 27%;
+    background-image: url(../images/bg-card-back.png);
+    background-size: 100% 100%;
+}

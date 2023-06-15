@@ -1,0 +1,70 @@
+.card-front {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 12%;
+    height: 27%;
+    width: 27%;
+    background-image: url(../images/bg-card-front.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-front-logobox {
+    height: 25%;
+    width: 85%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 70%;
+}
+
+.card-front-infobox {
+    height: 30%;
+    width: 85%;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+}
+
+.card-front-number {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    color: white;
+}
+
+.card-front-infobox-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-front-name {
+    display: flex;
+    width: 70%;
+    color: white;
+}
+
+.card-front-expiration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    color: white;
+}
