@@ -1,8 +1,8 @@
 .card-front {
     position: absolute;
-    margin-top: 14%;
+    margin-top: 11%;
     margin-left: 12%;
-    height: 27%;
+    height: 30%;
     width: 27%;
     background-image: url(../images/bg-card-front.png);
     background-size: 100% 100%;
@@ -59,6 +59,7 @@
     display: flex;
     width: 70%;
     color: white;
+    letter-spacing: .1rem;
 }
 
 .card-front-expiration {
@@ -67,4 +68,5 @@
     align-items: flex-end;
     width: 25%;
     color: white;
+    letter-spacing: .1rem;
 }
