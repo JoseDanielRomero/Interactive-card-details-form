@@ -8,7 +8,7 @@ function CardFront({ nombreDeTarjeta, numeroDeTarjeta, mesDeExpiracion, anoDeExp
         } else {
             let toArray = numeroDeTarjeta.split('');
         for (let i=0; i < numeroDeTarjeta.length; i++) {
-            if (i == 4) {
+            if (i == 4) { 
                 toArray.splice(4,0,' ');
             }
             if (i == 8) {
