@@ -1,7 +1,23 @@
 import '../stylesheets/CardFront.css'
 import logo from '../images/card-logo.svg'
 
-function CardFront() {
+function CardFront({ numeroDeTarjeta }) {
+    const agregarEspacios = () => {
+        let toArray = numeroDeTarjeta.split('');
+        for (let i=0; i < numeroDeTarjeta.length; i++) {
+            if (i == 4) {
+                toArray.splice(4,0,' ')
+            }
+            if (i == 8) {
+                toArray.splice(9,0,' ')
+            }
+            if (i == 12) {
+                toArray.splice(14,0,' ')
+            }
+        }
+        return toArray;
+    }
+
     return (
         <div className='card-front'>
             <div className='card-front-logobox'>
@@ -9,7 +25,7 @@ function CardFront() {
             </div>
             <div className='card-front-infobox'>
                 <div className='card-front-number'>
-                    0000 0000 0000 0000
+                    {agregarEspacios()}
                 </div>
                 <div className='card-front-infobox-row'>
                     <div className='card-front-name'>

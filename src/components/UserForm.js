@@ -1,9 +1,6 @@
-import { useState } from 'react';
 import '../stylesheets/UserForm.css'
 
-function UserForm() {
-  const [cardNumber, setCardNumber] = useState('');
-
+function UserForm({ cardNumber, setCardNumber }) {
   const handleChange = (event) => {
     setCardNumber(event.target.value);
   }

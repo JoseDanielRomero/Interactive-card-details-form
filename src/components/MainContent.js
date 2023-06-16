@@ -1,12 +1,14 @@
 import '../stylesheets/MainContent.css'
 import UserForm from './UserForm';
 
-function MainContent() {
+function MainContent({ cardNumber, setCardNumber }) {
   return (
       <main className='main-content-box'>
           <div className='main-content-box-column'>
-              <UserForm>
-              </UserForm>
+              <UserForm
+                cardNumber={cardNumber}
+                setCardNumber={setCardNumber}
+              />
           </div>
       </main>
     );
