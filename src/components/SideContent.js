@@ -2,12 +2,17 @@ import '../stylesheets/SideContent.css'
 import CardBack from './CardBack';
 import CardFront from './CardFront';
 
-function SideContent({ numeroDeTarjeta }) {
+function SideContent({ nombreDeTarjeta, numeroDeTarjeta, mesDeExpiracion, anoDeExpiracion, codigoDeTarjeta }) {
     return (
         <aside className='side-content-box'>
             <img className='img-side' src={(require('../images/bg-main-desktop.png'))} />
-            <CardFront numeroDeTarjeta={numeroDeTarjeta}/>
-            <CardBack></CardBack>
+            <CardFront
+                nombreDeTarjeta={nombreDeTarjeta}
+                numeroDeTarjeta={numeroDeTarjeta}
+                mesDeExpiracion={mesDeExpiracion}
+                anoDeExpiracion={anoDeExpiracion}
+            />
+            <CardBack codigoDeTarjeta={codigoDeTarjeta} />
         </aside>
     );
 }
